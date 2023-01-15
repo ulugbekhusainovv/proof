@@ -1,0 +1,17 @@
+h1 {
+  @include fontStyle(5.6rem, 1.0625, -2px, #512051, 700);
+  @media screen and (max-width: 900px) {
+    font-size: 4rem;
+    line-height: 0.8;
+    letter-spacing: -1.43px;
+  }
+}
+h5 {
+  @include fontStyle(1.9rem, 1.32, -0.6333px, #927b91, 500);
+}
+h6 {
+  @include fontStyle(1.7rem, 1.0625, normal, #512051, 700);
+}
+span {
+  @include fontStyle(1.7rem, 1.0625, normal, #ee69a4, 400);
+}
